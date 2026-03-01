@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 int main() {
-  /* define first_name */
-  /* define last_name */
+  char first_name[20] = "John";
+  char last_name[20] = "Joe";
   char name[100];
 
   last_name[0] = 'B';
