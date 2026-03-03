@@ -14,6 +14,6 @@ int main() {
 
 void print_big(int number) {
     if (number > 10) {
-        printf("%d\n", number);
+        printf("%d is big\n", number);
     }
 }
