@@ -8,7 +8,10 @@ typedef struct {
 /* function declaration */
 void birthday(person * p);
 
-/* write your function here */
+void birthday(person * p){
+    p->age++; // This is the same..	
+    //(*p).age++; // ... as this would be
+}
 
 int main() {
   person john;
