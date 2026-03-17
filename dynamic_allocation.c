@@ -7,10 +7,9 @@ typedef struct {
 } point;
 
 int main() {
-  point * mypoint = NULL;
+  point * mypoint;
 
-  /* Dynamically allocate a new point
-     struct which mypoint points to here */
+  mypoint = (point *)malloc(sizeof(point));
 
   mypoint->x = 10;
   mypoint->y =5 ;
